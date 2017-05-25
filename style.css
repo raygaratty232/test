@@ -1,0 +1,282 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.wraper{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+.hide-menu{
+	 display: none;
+}
+.drop{
+	display: none;
+}
+.menu{
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+	max-width: 1370px;
+	min-height: 1060px;
+	background-repeat: no-repeat;
+}
+nav{
+	max-width: 945px;
+	min-height: 320px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+.left{
+	max-width: 140px;
+	float: left;
+	background-color: #fa5c65;
+	border-radius: 0px 0px 18px 18px;
+	padding: 10px 20px 10px 20px;
+}
+.left p{
+	font-size: 20px;
+	color: #fff;
+	margin: 0;
+	padding-top: 32%;
+}
+.right{
+	min-width: 570px;
+	min-height: 75px;
+	overflow: hidden;
+	position: fixed;
+    right: 190px;
+}
+.right ul{
+	overflow: hidden;
+}
+.right li{
+	float: left;
+	list-style: none;
+	width: 10%;
+	padding: 3%;
+}
+.right a{
+	color: #263742;
+	display: block;
+	text-decoration: none;
+}
+.head-text{
+	max-width: 900px;
+	min-height: 300px;
+	margin: auto;
+}
+.head-text h1{
+	font-size: 42px;
+}
+.head-text p{
+	font-size: 20px;
+}
+.button a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 15%;
+	text-align: center;
+}
+.button{
+	max-width: 170px;
+	min-height: 65px;
+	background-color: #fa5c65;
+	border-radius: 10px;
+}
+.work{
+	max-width: 880px;
+	min-height: 180px;
+	margin: auto;
+	overflow: hidden;
+}
+.work-text{
+	max-width: 240px;
+	min-height: 180px;
+	float: left;
+	margin-left: 6%;
+	padding-top: 5%;
+}
+.work-text h2{
+	color: #465065;
+}
+.work-text p{
+	color: #a7adb6;
+}
+.more{
+	max-width: 75px;
+	min-height: 14px;
+}
+.more a{
+	color: #f0454c;
+	text-decoration: none;
+}
+.more a:after{
+	content: "";
+	width: 12px;
+	height: 10px;
+	background: url(img/arrow.png);
+	display: block;
+	float: right;
+	margin: 5px;
+}
+.portfolio{
+	max-width: 780px;
+	min-height: 300px;
+	margin: auto;
+	margin-top: 15%;
+	overflow: hidden;
+}
+.portfolio-img{
+	float: left;
+}
+.portfolio-text h2{
+	text-transform: uppercase;
+	font-size: 40px;
+	color: #465065;
+}
+.portfolio-text p{
+	color: #a7adb6;
+}
+.portfolio-text p::first-child{
+	color: #465065;
+}
+.portfolio-text{
+	max-width: 350px;
+	float: left;
+	margin-left: 4%;
+	margin-top: -5%;
+}
+.team{
+	max-width: 780px;
+	min-height: 200px;
+	margin: auto;
+	margin-top: 15%;
+	overflow: hidden;	
+}
+.team h2{
+	text-transform: uppercase;
+	font-size: 40px;
+	color: #465065;
+	margin: 0;
+}
+.team p{
+	color: #a7adb6;
+}
+.contact{
+	max-width: 920px;
+	min-height: 250px;
+	margin: auto;
+	overflow: hidden;
+}
+.man{
+	width: 33%;
+	float: left;
+	overflow: hidden;
+}
+.man img{
+	max-width: 125px;
+	min-height: 120px;
+	border-radius: 60px;
+	float: left;
+}
+.man-text h2{
+	margin: 0;
+	font-size: 20px;
+}
+.man-text p{
+	font-size: 14px;
+}
+.man-text a{
+	text-decoration: none;
+	color: #f0454c;
+}
+.more-man{
+	float: right;
+}
+.foot{
+	max-width: 950px;
+	min-height: 90px;
+	margin: auto;
+	border-top: 1px solid #a7adb6;
+}
+.foot ul{
+	overflow: hidden;
+}
+.foot li{
+	float: left;
+	padding-left: 10%;
+	list-style: none;
+}
+.icon-foot{
+	float: left;
+	width: 20%;
+}
+.foot-text{
+	float: right;
+}
+.foot-text p{
+	color: #a7adb6;
+}
+/*--------------------------modal-------------------------------*/
+.remodal img{
+	border-radius: 70px;
+	float: left;
+	margin-top: -10%;
+}
+.form-modal{
+	width: 39%;
+	margin: auto;
+}
+/*---------------------------media------------------------------*/
+@media only screen and (max-width: 580px){
+	.left{
+		float: none;
+	}
+	.hide-menu{
+		display: block;
+		width: 560px;
+   		background: #a7adb6;
+    }
+	.hide-menu li{
+		list-style: none;
+	}
+	.hide-menu a{
+		text-decoration: none;
+    	font-size: 30px;
+    	color: #000;
+	}
+	.hide-menu:hover .drop{
+		display: block;
+	}
+	.right{
+		display: none;
+	}
+	.toggle{
+		width: 5%;
+	    background: #fff;
+   		border: 1px solid;
+	    transform: rotate(90deg);
+	    border-radius: 4px;
+	}
+	.drop{
+		position: absolute;
+	}
+	.drop li:nth-child(5){
+		float: left;
+	}
+	.drop li:nth-child(6){
+		margin-left: 40%;
+	}
+}
+@media only screen and (max-width: 292px){
+	.left{
+		margin: auto;
+	}
+	.toggle{
+		margin-left: 12%;
+	}
+}
+	
