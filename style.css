@@ -237,9 +237,7 @@ nav{
 	}
 	.hide-menu{
 		display: block;
-		
-   		
-    }
+     }
 	.hide-menu li{
 		list-style: none;
 	}
@@ -255,7 +253,7 @@ nav{
 		display: none;
 	}
 	.toggle{
-		width: 5%;
+		width: 7%;
 	    background: #fff;
    		border: 1px solid;
 	    transform: rotate(90deg);
